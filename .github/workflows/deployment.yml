@@ -19,7 +19,7 @@ jobs:
             git clone git@github.com:Ihsan-null/gcp-deployment.git /home/ihsanulz92/app
           fi
           cd /home/ihsanulz92/app
-          git pull origin master
+          git pull origin main
           docker stop myApp
           docker rm myApp
           cd program
