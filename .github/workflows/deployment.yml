@@ -16,7 +16,7 @@ jobs:
         script: |
           if [ ! -d "/home/ihsanulz92/app" ]
           then
-            git clone https://github.com/Ihsan-null/gcp-deployment.git /home/ihsanulz92/app
+            git clone git@github.com:Ihsan-null/gcp-deployment.git /home/ihsanulz92/app
           fi
           cd /home/ihsanulz92/app
           git pull origin master
